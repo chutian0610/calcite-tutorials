@@ -23,6 +23,7 @@ import java.util.Properties;
 
 public class CalciteMain {
     public static Logger logger = LoggerFactory.getLogger(CalciteMain.class);
+    
     public static void main(String[] args) throws SQLException {
         // 创建连接
         Properties info = new Properties();
